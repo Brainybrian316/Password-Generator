@@ -20,6 +20,8 @@ This is a password generator used to create random password.
 ## Installation
 No Installation Necessary simply click on the following link to view the deployed website:
 
+https://brainybrian316.github.io/Password-Generator/
+
 ## Usage
 A application used to create a random password for your use.
 
