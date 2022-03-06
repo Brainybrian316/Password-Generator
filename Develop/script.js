@@ -34,11 +34,6 @@ function generatePassword() {
                 var storeButton = Math.floor(Math.random() * okayButton.length);
                 var selectedArray = okayButton[storeButton];
                 results += selectedArray[Math.floor(Math.random() * selectedArray.length)];
-                // results += alphabetLower[Math.floor(Math.random() *26)];
-                // results += arrayNumeric[Math.floor(Math.random() *10)];
-                // results += arraySpecialCharacters[Math.floor(Math.random() *10)];
-                // else { window.alert('This is an invalid entry. Select an entry between 8 and 128');
-                // return generatePassword();
             }
         } else {
             window.alert('This is an invalid entry. Select at least ONE to proceed');
@@ -50,8 +45,6 @@ function generatePassword() {
         return generatePassword();
     }
 }
-
-// challenge make it so that if they hit cancel to many times instead of error have it prompt them to do it again
 
 // Write password to the #password input
 function writePassword() {
