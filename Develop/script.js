@@ -18,8 +18,8 @@ function generatePassword() {
     var numberOfCharacters = window.prompt("How many characters would you like your password to contain");
     var characterQuantity = parseInt(numberOfCharacters);
     if (characterQuantity >= 8 && characterQuantity <= 128) {
-        var lowerCase = window.confirm("click OK to confirm lowercase letter.");
-        var upperCase = window.confirm("Click OK to confirm uppercase letter.");
+        var lowerCase = window.confirm("click OK to confirm lowercase letters.");
+        var upperCase = window.confirm("Click OK to confirm uppercase letters.");
         var numeric = window.confirm("Click OK to confirm numeric values");
         var specialCharacters = window.confirm("Click OK to confirm special characters");
         var okayButton = [];
