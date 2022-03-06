@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Password Generator
 
 ## Table of Contents
 - [About](#About-The-Project)
