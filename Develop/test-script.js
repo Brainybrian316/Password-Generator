@@ -23,10 +23,6 @@ function generatePassword() {
       var upperCase = window.confirm("Click OK to confirm uppercase letter.");
       var numeric = window.confirm("Click OK to confirm numeric values");
       var specialCharacters = window.confirm("Click OK to confirm special characters");
-     } else {
-       window.alert('That is an invalid entry. Type and entry between 8 and 128')
-    return generatePassword();
-  }
       var okayButton = []; 
       if(upperCase == true) okayButton.push(alphabetUpper);
       if(lowerCase == true) okayButton.push(alphabetLower);
@@ -49,6 +45,10 @@ function generatePassword() {
       return generateBtn();
   }
   return results;
+}  else {
+    window.alert('That is an invalid entry. Type and entry between 8 and 128')
+ return generatePassword();
+}
 }
       
 // challenge make it so that if they hit cancel to many times instead of error have it prompt them to do it again
